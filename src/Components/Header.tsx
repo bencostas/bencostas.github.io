@@ -12,12 +12,12 @@ function Header() {
             <ul className="flex items-center justify-items-center gap-x-6">
             <li>
                 <a href="https://github.com/bencostas">
-                <FontAwesomeIcon icon={faGithub} size='2x'/>
+                <FontAwesomeIcon icon={faGithub} size='2x' className="fa-effect"/>
                 </a>
             </li>
             <li>
                 <a href="https://linkedin.com/in/bencostas">
-                <FontAwesomeIcon icon={faLinkedin} size='2x'/>
+                <FontAwesomeIcon icon={faLinkedin} size='2x' className="fa-effect"/>
                 </a>
             </li>
             </ul>
