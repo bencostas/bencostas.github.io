@@ -5,7 +5,7 @@ import './Header.css';
 
 function Header() {
     return (
-        <ul className="flex items-center justify-around flex-wrap bg-neutral-100 p-6">
+        <ul className="flex items-center justify-around flex-wrap bg-white-100 p-6">
             <li>
             Logo
             </li>
