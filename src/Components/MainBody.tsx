@@ -3,17 +3,25 @@ import TypeWriter from "typewriter-effect"
 
 function MainBody() {
     return (
-        <div className="text-4xl py-20">
-            <TypeWriter
-            options={{
-                strings: ['hi, i\'m ben', 'welcome to my site'],
-                autoStart: true,
-                loop: true,
-              }}
-            />
-        </div>
+        <>
+        <div className="flex items-center flex-col">
+            <div className="text-4xl py-20">
+                <TypeWriter
+                options={{
+                    strings: ['hi, i\'m ben', 'welcome to my site'],
+                    autoStart: true,
+                    loop: true,
+                }}
+                />
+            </div>
 
-        /* Include description of self here */
+            
+            <div className='shadow-inner self-auto w-3/4'>
+            Test
+            </div>
+        </div>
+        
+        </>
     );
 }
 
