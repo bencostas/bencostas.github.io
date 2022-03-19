@@ -16,15 +16,18 @@ const Gallery = () => {
 
     return  (
         <>
-        <div className="text-3xl py-16">
+        <div className="text-3xl py-16 flex items-center flex-col">
             here's a gallery of my work
         </div>
+        <div className="flex items-center flex-col">
         <Buttons
             filterItem={filterItem}
             setItem={setItem}
             menuItems={menuItems}
           />
         <Container item={item}/>
+        </div>
+        
         </>
     );
 };

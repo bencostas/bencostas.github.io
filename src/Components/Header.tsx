@@ -8,9 +8,6 @@ function Header() {
     return (
         <>
         <ul className="flex items-center justify-around flex-wrap bg-white-100 p-6">
-            <li>
-            Logo
-            </li>
             <ul className="flex items-center justify-items-center gap-x-6">
             <li>
                 <a href="https://github.com/bencostas">
