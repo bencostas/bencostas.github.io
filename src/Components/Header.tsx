@@ -1,6 +1,7 @@
 import React from 'react';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import './Header.css';
 
 function Header() {
@@ -19,6 +20,11 @@ function Header() {
             <li>
                 <a href="https://linkedin.com/in/bencostas">
                 <FontAwesomeIcon icon={faLinkedin} size='2x' className="fa-effect"/>
+                </a>
+            </li>
+            <li>
+                <a href="mailto:bencostas@gmail.com">
+                    <FontAwesomeIcon icon={faEnvelope} size='2x' className='fa-effect'/>
                 </a>
             </li>
             </ul>
