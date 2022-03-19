@@ -1,1 +1,1 @@
-Current iteration of website, under construction
+Current iteration of my personal portfolio
