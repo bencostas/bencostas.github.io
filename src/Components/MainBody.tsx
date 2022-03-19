@@ -8,7 +8,7 @@ function MainBody() {
             <div className="text-4xl py-20">
                 <TypeWriter
                 options={{
-                    strings: ['hi, i\'m ben', 'welcome to my site'],
+                    strings: ['hi, i\'m ben', 'welcome to my site.'],
                     autoStart: true,
                     loop: true,
                 }}
@@ -16,8 +16,8 @@ function MainBody() {
             </div>
 
             
-            <div className='shadow-inner self-auto w-3/4'>
-            Test
+            <div className='text-lg shadow-inner text-left self-auto w-full md:w-3/5 p-6'>
+            Currently under development
             </div>
         </div>
         
