@@ -13,9 +13,10 @@ const Container = ({item}) => {
                 >
                     <a href={Val.link}>
                     <div className="text-left hover:bg-slate-200 p-3 rounded-xl">
+                        <div className="font-bold underline">
                         {Val.name}
-                        <br/>
-                        <br/>
+                        </div>
+                        
                         {Val.desc}
                     </div>
                     </a>
