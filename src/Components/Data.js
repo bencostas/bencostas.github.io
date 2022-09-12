@@ -28,6 +28,12 @@ const Data =[
         language: "JavaScript",
         link: "https://github.com/bencostas/todolistextension",
         desc: "A to do list built using vanilla HTML/CSS/JS; capable of adding, deleting, and saving to-dos."
+    },
+    {
+        name: "YouTugether",
+        language: "JavaScript",
+        link: "https://github.com/bencostas/YouTugether",
+        desc: "A socket web application that allows you and others to watch YouTube in the same room"
     }
 
 ]

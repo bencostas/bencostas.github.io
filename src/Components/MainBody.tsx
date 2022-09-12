@@ -16,7 +16,7 @@ function MainBody() {
             </div>
 
             
-            <div className='text-lg shadow-xl text-left md:text-center self-auto w-full md:w-3/5 p-6'>
+            <div className='text-lg shadow-xl text-left self-auto w-full md:w-3/5 p-6'>
             Nice to meet you! I am currently pursuing my undergraduate in computer science 
             and am looking for exciting opportunities in tech. I love learning new things
             and finding different approaches to tackle problems.
