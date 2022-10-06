@@ -15,7 +15,7 @@ const Data =[
         name: "Foodfind",
         language: "JavaScript",
         link: "https://devpost.com/software/foodfind-fg4cpx",
-        desc: "A food recommendation app built using React.",
+        desc: "A food recommendation app built using React. Submitted to Hack the Valley 5.",
     },
     {
         name: "Fitness Emailer Bot",

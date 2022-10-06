@@ -8,7 +8,7 @@ const Container = ({item}) => {
             {item.map((Val) => {
                 return (
                 <div
-                    className="w-1/2 h-48 p-3"
+                    className="w-1/2 h-30 p-2"
                     key={Val.id}
                 >
                     <a href={Val.link}>

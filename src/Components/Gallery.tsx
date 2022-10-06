@@ -17,7 +17,7 @@ const Gallery = () => {
     return  (
         <>
         <div className="text-3xl py-12 flex items-center flex-col">
-            here's a gallery of my work
+            my projects
         </div>
         <div className="flex items-center flex-col">
         <Buttons
