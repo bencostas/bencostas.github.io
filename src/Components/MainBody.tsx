@@ -19,7 +19,8 @@ function MainBody() {
             <div className='text-lg shadow-xl text-left self-auto w-full md:w-3/5 p-6'>
             Nice to meet you! I am currently pursuing my undergraduate in computer science 
             and am looking for exciting opportunities in tech. I love learning new things
-            and finding different approaches to tackle problems.
+            and finding different approaches to tackle problems. Currently, I have experience
+            working in web development, system development, and cybersecurity.
             <br/>
             <br/>
             Aside from coding, I enjoy a mixture of sports, eating at new restaurants, and discovering new hobbies.
