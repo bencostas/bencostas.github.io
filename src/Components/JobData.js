@@ -16,7 +16,8 @@ const Jobs =[
         title: "System Development Intern",
         date: "Sept. 2022 - Dec. 2022",
         desc: [
-            "Developing API Gateways and improving the system architecture of BoC Connect",
+            "Internship current in progress",
+            "Working alongside the Identity and Access Management team and Security Services team",
             "Followed wireframe documents and implemented changes and corrections to the client using JavaScript"
         ]
     }

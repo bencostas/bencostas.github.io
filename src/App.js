@@ -8,10 +8,12 @@ import Work from './Components/Jobs.tsx'
 function App() {
   return (
     <div className="App">
+      <div className=''>
       <Header/>
       <MainBody/>
       <Work/>
       <Gallery/>
+      </div>
     </div>
   );
 }

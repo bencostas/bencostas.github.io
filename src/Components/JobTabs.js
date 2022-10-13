@@ -46,9 +46,9 @@ export const JobTabs = ({ data }) => {
     };
 
     return (
-        <div className='text-lg shadow-xl text-left self-auto w-full md:w-3/5 h-96'>
+        <div className='rounded-3xl text-lg shadow-xl text-left self-auto w-full md:w-3/5 xl:w-2/5 h-96'>
         <Box
-            sx={{ fontFamily: "sans-serif", bgcolor: 'background.paper', display: 'flex', height: "100%", width: "100%"}}
+            sx={{ fontFamily: "sans-serif", bgcolor: 'background.paper', display: 'flex', height: "95%", width: "95%"}}
         >
             <Tabs
                 orientation="vertical"
@@ -62,7 +62,7 @@ export const JobTabs = ({ data }) => {
                         backgroundColor: "black",
                     }
                 }}
-                style={{minWidth: "10em"}}
+                style={{minWidth: "10.5em"}}
                 sx={{ borderRight: "1px", borderColor: 'divider', textAlign: "left" }}
             >
                 {data.map((tabData, index) => (
@@ -83,10 +83,11 @@ export const JobTabs = ({ data }) => {
                             {tabData["title"]} @ {tabData["company"]}
                         </div>
                         {tabData["date"]}
-
+                        <ul className="list-outside list-disc">
                         {tabData["desc"].map((d, i) => {
                             return (<li key={i}>{d}</li>)
                         })}
+                        </ul>
                     </div>
 
                 </TabPanel>
