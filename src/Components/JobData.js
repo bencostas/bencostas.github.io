@@ -14,11 +14,11 @@ const Jobs =[
     {
         company: "Bank of Canada",
         title: "System Development Intern",
-        date: "Sept. 2022 - Dec. 2022",
+        date: "Sept. 2022 - Apr. 2023",
         desc: [
-            "Internship current in progress",
-            "Working alongside the Identity and Access Management team and Security Services team",
-            "Followed wireframe documents and implemented changes and corrections to the client using JavaScript"
+            "Followed wireframe documents to improve user experience by implementing 5 features to the BoC Connect Portal client using HTML and JavaScript. Corrected and validated existing features through smoke testing.",
+            "Created reverse web proxies to onboard external applications to the BoC Connect Portal. Configured firewalls and whitelisted external users to improve security measures in the system architecture.",
+            "Worked with 2 teams alongside 20+ developers and specialists. Attended daily scrum meetings and weekly sprint plannings. Participated in code reviews, code promotions, solutioning, and testing."
         ]
     }
 ]

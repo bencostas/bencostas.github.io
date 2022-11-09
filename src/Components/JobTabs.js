@@ -46,7 +46,7 @@ export const JobTabs = ({ data }) => {
     };
 
     return (
-        <div className='rounded-3xl text-lg shadow-xl text-left self-auto w-full md:w-3/5 xl:w-2/5 h-96'>
+        <div className='rounded-3xl shadow-xl text-left self-auto w-full lg:w-3/5 xl:w-2/5 h-max'>
         <Box
             sx={{ fontFamily: "sans-serif", bgcolor: 'background.paper', display: 'flex', height: "95%", width: "95%"}}
         >
@@ -83,10 +83,10 @@ export const JobTabs = ({ data }) => {
                             {tabData["title"]} @ {tabData["company"]}
                         </div>
                         {tabData["date"]}
-                        <ul className="list-outside list-disc">
-                        {tabData["desc"].map((d, i) => {
-                            return (<li key={i}>{d}</li>)
-                        })}
+                        <ul className="text-base list-outside list-disc">
+                            {tabData["desc"].map((d, i) => {
+                                return (<li key={i}>{d}</li>)
+                            })}
                         </ul>
                     </div>
 
