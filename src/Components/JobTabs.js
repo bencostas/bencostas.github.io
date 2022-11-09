@@ -46,9 +46,9 @@ export const JobTabs = ({ data }) => {
     };
 
     return (
-        <div className='rounded-3xl shadow-xl text-left self-auto w-full lg:w-3/5 xl:w-2/5 h-max'>
+        <div className='text-center rounded-3xl shadow-xl text-left self-auto w-full lg:w-3/5 xl:w-2/5 h-max'>
         <Box
-            sx={{ fontFamily: "sans-serif", bgcolor: 'background.paper', display: 'flex', height: "95%", width: "95%"}}
+            sx={{ fontFamily: "sans-serif", bgcolor: 'background.paper', display: 'flex', height: "100%", width: "100%", borderRadius: "1.5rem"}}
         >
             <Tabs
                 orientation="vertical"
