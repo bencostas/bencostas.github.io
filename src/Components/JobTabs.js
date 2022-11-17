@@ -46,7 +46,7 @@ export const JobTabs = ({ data }) => {
     };
 
     return (
-        <div className='text-center rounded-3xl shadow-xl text-left self-auto w-full lg:w-3/5 xl:w-2/5 h-max'>
+        <div className='text-center text-left self-auto w-full lg:w-3/5 xl:w-2/5 h-96'>
         <Box
             sx={{ fontFamily: "sans-serif", bgcolor: 'background.paper', display: 'flex', height: "100%", width: "100%", borderRadius: "1.5rem"}}
         >
