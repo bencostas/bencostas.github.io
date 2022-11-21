@@ -20,11 +20,6 @@ const Gallery = () => {
             my projects
         </div>
         <div className="flex items-center flex-col ">
-        <Buttons
-            filterItem={filterItem}
-            setItem={setItem}
-            menuItems={menuItems}
-          />
         <Container item={item}/>
         </div>
         
