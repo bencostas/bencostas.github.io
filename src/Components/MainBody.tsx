@@ -24,18 +24,11 @@ function MainBody() {
             <br/>
             Currently, I have experience
             working in web development, system development, and cybersecurity. I'm looking to
-            gain as much experience and exposure as I can into different fields of tech.
+            gain as much experience and exposure as I can into different fields of tech before I graduate.
             <br/>
             <br/>
-            Aside from coding, I also love:
+            Aside from coding, I also love shooting hoops 🏀, lifting weights 🏋, gaming 🎮, listening to music 🎵, and avoiding peanuts 🥜.
             <br/>
-            <ul className="list-disc list-inside">
-                <li>Basketball! 🏀</li>
-                <li>Lifting! 🏋</li>
-                <li>Video Games! 🎮</li>
-                <li>Music! 🎵</li>
-                <li>Food! (but I have an allergy to nuts) 🥜😥</li>
-            </ul>
             </div>
         </div>
         

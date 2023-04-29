@@ -18,18 +18,6 @@ const Data =[
         desc: "A food recommendation app built using React. Submitted to Hack the Valley 5.",
     },
     {
-        name: "Fitness Emailer Bot",
-        language: "Python",
-        link: "https://github.com/bencostas/fitness-emailer-bot",
-        desc: "A Python script used to email daily fitness and diet regimes.",
-    },
-    {
-        name: "To Do List",
-        language: "JavaScript",
-        link: "https://github.com/bencostas/todolistextension",
-        desc: "A to do list capable of adding, deleting, and saving to-dos."
-    },
-    {
         name: "YouTugether",
         language: "JavaScript",
         link: "https://github.com/bencostas/YouTugether",
