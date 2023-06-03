@@ -1,7 +1,7 @@
 const Jobs =[
     {
         company: "Ministry of Health",
-        title: "Full Stack Developer",
+        title: "Full Stack Developer Intern",
         date: "July 2022 - Sept. 2022",
         desc: [
             "Leveraged MERN stack to enhance product usability for 100+ health institutions across Ontario by developing and implementing new features and functionalities for an internal government financial data collection tool.",
@@ -12,7 +12,7 @@ const Jobs =[
     },
     {
         company: "Bank of Canada",
-        title: "Systems Developer",
+        title: "Systems Developer Intern",
         date: "Sept. 2022 - Apr. 2023",
         desc: [
             "Iterated new designs and followed wireframe documents to elevate user experience for 1000+ financial services companies across Canada by refining 5 pages in an internal government portal client using Figma and JavaScript.",
@@ -24,7 +24,7 @@ const Jobs =[
     },
     {
         company: "Kumon",
-        title: "Software Developer",
+        title: "Software Developer Intern",
         date: "May 2023 - Aug. 2023",
         desc: ["Developed a large-scale data storage system application using Django and MS SQL, handling over 400+ critical client information and operated by over 30 users, reducing average data entry speed from 30 seconds to 5 seconds"
         ]
