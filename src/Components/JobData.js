@@ -29,6 +29,15 @@ const Jobs =[
             "Enhanced user experience and interaction by integrating JavaScript and Bootstrap to construct a dynamic user interface. Ensured long-term scalability and maintainability by creating reusable components.",
             "Implemented 5 backend REST APIs enabling CRUD operations between the client and database. Resolved issues in SQL query definitions boosting data accuracy by 10%, improving the overall efficiency and reliability of the application."
         ]
+    },
+    {
+        company: "Toronto Metropolitan University",
+        title: "Undergraduate Research Assistant",
+        date: "Oct. 2023 - Present",
+        desc: [
+            "Under the supervision of Dr. Ali Mazalek, assisting in the development and maintenance of the SimSnap project. The project strives to improve collaborative learning through reconfigurable simulations",
+            "Verified software functionality and accuracy by performing unit tests on existing components."
+        ]
     }
 ]
 

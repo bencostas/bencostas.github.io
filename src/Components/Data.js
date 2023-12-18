@@ -22,6 +22,12 @@ const Data =[
         language: "JavaScript",
         link: "https://github.com/bencostas/YouTugether",
         desc: "A socket web application that allows you and others to watch YouTube in the same room"
+    },
+    {
+        name: "Zeppelin Battle Simulation",
+        language: "C++",
+        link: "https://github.com/bencostas/zeppelin-battle-simulation",
+        desc: "Integrated computer graphics theories and concepts to create a zeppelin battle simulation using C++ and OpenGL"
     }
 
 ]

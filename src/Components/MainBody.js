@@ -16,18 +16,20 @@ function MainBody() {
             </div>
 
             
-            <div className='rounded-3xl text-lg shadow-lg text-left self-auto w-full lg:w-3/5 2xl:w-2/5 p-6 list-disc'>
+            <div className='rounded-3xl text-lg shadow-lg shadow-indigo-300/50 text-left self-auto w-full lg:w-3/5 2xl:w-2/5 p-6 list-disc'>
             Nice to meet you! I am currently pursuing my undergraduate in computer science 
             and am looking for exciting opportunities in tech. I love learning new things
             and finding different approaches to tackle problems. 
             <br/>
             <br/>
-            Currently, I have experience
-            working in web development, system development, and cybersecurity. I'm looking to
+            I have experience
+            working in web development, system development, and software development. I'm looking to
             gain as much experience and exposure as I can into different fields of tech before I graduate.
             <br/>
             <br/>
-            Aside from coding, I also love shooting hoops 🏀, lifting weights 🏋, gaming 🎮, listening to music 🎵, and avoiding peanuts 🥜.
+            <p className='font-bold'>I am seeking an internship for Summer 2024.</p>
+            <br/>
+            Aside from coding, I have a love for sports, food, and travelling.
             <br/>
             </div>
         </div>

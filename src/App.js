@@ -1,9 +1,9 @@
 import './App.css';
-import Header from './Components/Header.tsx';
-import MainBody from './Components/MainBody.tsx';
-import Gallery from './Components/Gallery.tsx';
+import Header from './Components/Header.js';
+import MainBody from './Components/MainBody.js';
+import Gallery from './Components/Gallery.js';
 import React from 'react';
-import Work from './Components/Jobs.tsx'
+import Work from './Components/Jobs.js'
 
 function App() {
   return (

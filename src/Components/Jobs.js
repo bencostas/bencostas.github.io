@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import Jobs from "./JobData"
 import JobTabs from "./JobTabs";
 
@@ -6,7 +6,7 @@ const Work = () => {
 
     return(
         <>
-        <div className="text-3xl py-12 flex items-center flex-col">
+        <div className="text-3xl py-12 flex items-center flex-col underline">
             work experience
         
         </div>
