@@ -62,7 +62,7 @@ export const JobTabs = ({ data }) => {
                         backgroundColor: "black",
                     }
                 }}
-                style={{minWidth: "10.5em"}}
+                style={{minWidth: "11.1em"}}
                 sx={{ borderRight: "1px", borderColor: 'divider', textAlign: "left" }}
             >
                 {data.map((tabData, index) => (
