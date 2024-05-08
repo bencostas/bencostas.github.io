@@ -27,8 +27,6 @@ function MainBody() {
             gain as much experience and exposure as I can into different fields of tech before I graduate.
             <br/>
             <br/>
-            <p className='font-bold'>I am seeking an internship for Summer 2024.</p>
-            <br/>
             Aside from coding, I have a love for sports, food, and travelling.
             <br/>
             </div>

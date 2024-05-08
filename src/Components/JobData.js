@@ -1,7 +1,7 @@
 const Jobs =[
     {
         company: "Ministry of Health",
-        title: "Full Stack Developer Intern",
+        title: "Software Developer Intern",
         date: "July 2022 - Sept. 2022",
         desc: [
             "Optimized handling of budget proposals by creating a streamlined data processing pipeline using TypeScript and React. Enhanced financial accuracy and decision-making for 100+ health institutions across Ontario.",

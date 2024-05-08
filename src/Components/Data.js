@@ -28,6 +28,12 @@ const Data =[
         language: "C++",
         link: "https://github.com/bencostas/zeppelin-battle-simulation",
         desc: "Integrated computer graphics theories and concepts to create a zeppelin battle simulation using C++ and OpenGL"
+    },
+    {
+        name: "NBA Player Statistics Analysis",
+        language: "Python",
+        link: "https://github.com/bencostas/nba-player-analysis",
+        desc: "Used association analysis to depict relationships and patterns between attributes and clustering analysis to classify 400+ NBA players into 3 distinct groups"
     }
 
 ]
