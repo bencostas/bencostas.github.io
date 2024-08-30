@@ -14,10 +14,11 @@ const Jobs =[
         title: "Systems Developer Intern",
         date: "Sept. 2022 - Apr. 2023",
         desc: [
-            "Strengthened security, authentication, and integrity by configuring API Gateways within a government portal using XML and JavaScript. Provided secure access for 1000+ financial services firms throughout Canada",
-            "Employed IAM systems (CyberArk, SailPoint, ServiceNow) to configure reverse web proxies, firewall, and whitelisting",
-            "Reduced production environment setup by fixing 30+ coding defects such as hard-coded variables, functions, and RegEx",
-            "Organized and performed a large-scale SQL dump to migrate over 50GB of data and code between 2 data centers. Communicated with external partners to ensure seamless integration and testing of impacted applications"
+            "Configured API Gateways within an internal multi-system architecture using Broadcom Enterprise Software, providing secure access to regulatory reporting systems for 30,000+ financial services firms throughout Canada.",
+            "Leveraged IAM systems (CyberArk, SailPoint, ServiceNow) to configure reverse web proxies, firewalls, and external user whitelisting, and conducted smoke testing to validate system stability.",
+            "Prototyped the redesign of the user portal using Figma and JavaScript, providing modernized changes to existing features.",
+            "Reduced manual configuration by resolving 30+ coding defects such as hard-coded variables, functions, and RegEx.",
+            "Organized and performed a large-scale SQL dump to migrate extensive data and code between 2 data centers. Communicated with external partners to ensure seamless integration and testing of impacted applications"
         ]
     },
     {
@@ -25,8 +26,7 @@ const Jobs =[
         title: "Software Developer Intern",
         date: "May 2023 - Aug. 2023",
         desc: [
-            "Spearheaded development of a student progress monitoring web application using Django and MS SQL. Managing over 500+ critical client information and operated by over 30 users, improving average data entry speed by 250%.",
-            "Increased application reliability by resolving issues in SQL query definitions, boosting data accuracy by 10%"
+            "Spearheaded the development of a student progress monitoring web application using Django and MS SQL, eliminating manual administrative processes and handwritten notes, improving average data entry speed by 250%."
         ]
     },
     {
@@ -34,9 +34,18 @@ const Jobs =[
         title: "Undergraduate Research Assistant",
         date: "Oct. 2023 - Present",
         desc: [
-            "Utilized React to integrate HCI research and designs into front-end components, developing the interface for SimSnap, a multi-device educational platform aimed to improve science learning for elementary school students",
-            "Leveraged Node.js and Socket.io to restructure and address system architecture issues such as data duplication, inaccurate data visualization, and user session management",
-            " Used AWS for project deployment, granting research partners from UW-Madison and UIUC access to the application, enabling seamless data collection from diverse student populations to drive improvements for future iterations."
+            "Utilized React to maintain and develop key features for SimSnap, a multi-device educational biological simulation platform, by implementing HCI research and designs into 10+ scalable front-end components.",
+            "Researched and resolved 5+ system architecture challenges, including data duplication, data visualization, and user session management, leveraging Node.js, Socket.io, and MongoDB to improve post-simulation feedback accuracy.",
+            "Used Postman and Express to create REST APIs, enabling data exchange between internal pages and external applications.",
+            "Employed AWS EC2 and Asana for project deployment and management, distributing the application to research partners from UW-Madison and UIUC, facilitating real-time student data collection to drive future improvements."
+        ]
+    },
+    {
+        company: "AMD",
+        title: "Software Engineer Intern",
+        date: "Sept. 2024 - Dec. 2024",
+        desc: [
+            "Incoming Fall 2024"
         ]
     }
 ]
