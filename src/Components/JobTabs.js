@@ -15,6 +15,7 @@ const TabPanel = (props) => {
       id={`vertical-tabpanel-${index}`}
       aria-labelledby={`vertical-tab-${index}`}
       {...other}
+      style={{ width: "100%" }}
     >
       {value === index && (
         <Box sx={{ p: 3 }}>
@@ -69,28 +70,41 @@ export const JobTabs = ({ data }) => {
               backgroundColor: "black",
             },
           }}
-          style={{ minWidth: "11.1em" }}
-          sx={{ borderRight: "1px", borderColor: "divider", textAlign: "left" }}
+          sx={{
+            borderRight: 1,
+            borderColor: "divider",
+            width: 180, // fixed width for tab section
+            minWidth: 180,
+            maxWidth: 180,
+          }}
         >
           {data.map((tabData, index) => (
-            <Tab label={tabData.company} {...a11yProps(index)} />
+            <Tab
+              key={index}
+              label={tabData.company}
+              {...a11yProps(index)}
+              sx={{ alignItems: "flex-start", textAlign: "left" }}
+            />
           ))}
         </Tabs>
-        {data.map((tabData, index) => (
-          <TabPanel value={value} index={index}>
-            <div className="text-left font-sans text-clip">
-              <div className="text-xl font-sans">
-                {tabData["title"]} @ {tabData["company"]}
+
+        <Box sx={{ flexGrow: 1 }}>
+          {data.map((tabData, index) => (
+            <TabPanel key={index} value={value} index={index}>
+              <div className="text-left font-sans text-clip">
+                <div className="text-xl font-sans">
+                  {tabData.title} @ {tabData.company}
+                </div>
+                {tabData.date}
+                <ul className="text-base list-outside list-disc pl-4">
+                  {tabData.desc.map((d, i) => (
+                    <li key={i}>{d}</li>
+                  ))}
+                </ul>
               </div>
-              {tabData["date"]}
-              <ul className="text-base list-outside list-disc">
-                {tabData["desc"].map((d, i) => {
-                  return <li key={i}>{d}</li>;
-                })}
-              </ul>
-            </div>
-          </TabPanel>
-        ))}
+            </TabPanel>
+          ))}
+        </Box>
       </Box>
     </div>
   );

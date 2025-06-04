@@ -9,7 +9,7 @@ const Work = () => {
         work experience
       </div>
       <div className="flex items-center flex-col">
-        <JobTabs data={Jobs} />
+        <JobTabs data={Jobs.reverse()} />
       </div>
     </>
   );

@@ -1,37 +1,36 @@
 import React from "react";
 import TypeWriter from "typewriter-effect";
+import headshot from "../Data/headshot.jpg";
 
 const MainBody = () => {
   return (
-    <>
-      <div className="flex items-center flex-col">
-        <div className="text-4xl py-20">
-          <TypeWriter
-            options={{
-              strings: ["hi, i'm ben", "welcome to my site."],
-              autoStart: true,
-              loop: true,
-            }}
-          />
-        </div>
+    <div className="flex items-center flex-col">
+      <div className="text-4xl py-20">
+        <TypeWriter
+          options={{
+            strings: ["hi, i'm ben", "welcome to my site."],
+            autoStart: true,
+            loop: true,
+          }}
+        />
+      </div>
 
-        <div className="rounded-3xl text-lg shadow-lg shadow-indigo-300/50 text-left self-auto w-full lg:w-3/5 2xl:w-2/5 p-6 list-disc">
-          Nice to meet you! I am currently pursuing my undergraduate in computer
-          science and am looking for exciting opportunities in tech. I love
-          learning new things and finding different approaches to tackle
-          problems.
-          <br />
-          <br />
-          I have experience working in web development, system development, and
-          software development. I'm looking to gain as much experience and
-          exposure as I can into different fields of tech before I graduate.
+      <div className="flex flex-row items-center gap-6 rounded-3xl text-lg shadow-lg shadow-indigo-300/50 text-left w-full lg:w-3/5 2xl:w-2/5 p-6">
+        <img
+          className="w-52 h-52 object-cover rounded-full"
+          src={headshot}
+          alt="Me!"
+        />
+        <div>
+          Nice to meet you and welcome to my profile! I completed my Bachelor's
+          of Science in Computer Science at Toronto Metropolitan University and
+          am currently a Software Systems Engineer 2 at AMD.
           <br />
           <br />
           Aside from coding, I have a love for sports, food, and travelling.
-          <br />
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
