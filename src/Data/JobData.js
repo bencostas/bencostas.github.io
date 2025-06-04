@@ -56,4 +56,4 @@ const Jobs = [
   },
 ];
 
-export default Jobs.reverse();
+export default Jobs;
