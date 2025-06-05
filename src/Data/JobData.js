@@ -52,7 +52,9 @@ const Jobs = [
     company: "AMD",
     title: "Software Systems Engineer 2",
     date: "June 2025 - Present",
-    desc: ["Incoming Full Time"],
+    desc: [
+      "Incoming Full Time Software Systems Engineer 2 on the GPU Solutions Team",
+    ],
   },
 ];
 
